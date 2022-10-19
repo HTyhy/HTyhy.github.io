@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="login.css">
+    <title>login</title>
+</head>
+<body><form action="" class="login">
+    <p>Login</p>
+    <input type="text" id="un" placeholder="用户名">
+    <input type="password" id="pw" placeholder="密码">
+    <input type="button" class="btn" value="登  录" onclick="myFunction()">
+</form>
+<script>
+    function myFunction()
+{
+    var un_1=document.getElementById('un').value;
+    var pw_1=document.getElementById('pw').value;
+    if(un_1=="admin",pw_1=='1145141919810')
+    {
+        window.open("grz.html")
+        window.close("index1-grzz.html")
+
+    }
+    else
+    {
+        alert('小提示,密码的MD5是32150285b345c48aa3492f9212f61ca2')
+        }
+}
+</script>
+    
+</body>
+</html>
