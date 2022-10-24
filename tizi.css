@@ -1,0 +1,15 @@
+body {
+
+    background:linear-gradient(to right, #2b2b2b, #2b2b2b);
+    }
+
+    div1{
+      width: 1000px;
+      height: 250px;
+      border: 2px solid #4a4a4a;
+      border-radius: 20px ;
+      background: #4a4a4a;
+      text-align: center;
+      display: table-cell;
+      
+    }
