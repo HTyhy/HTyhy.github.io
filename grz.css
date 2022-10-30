@@ -1,4 +1,29 @@
 body {
 
-  background:linear-gradient(to right, #2b2b2b, #2b2b2b);
+  background:linear-gradient(to right, #181818, #181818);
   }
+*{margin: 0;padding: 0;}
+ul{
+  list-style-type: none;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+li{
+  float: left;
+}
+li a{
+  display: block;
+  color: #7a7a7a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active){
+  background-color: #2b2b2b;
+}
+.active{
+  background-color: #2b2b2b;
+}
