@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="../lib/dist/css/bootstrap.css">
+    <title>用户管理</title>
+</head>
+<body>
+<div class="container">
+            <!--面板的情景样式-->
+            <!--<div class="panel panel-primary">-->
+            <div class="panel panel-default" style="margin: 20px">
+                <div class="panel-heading">
+                    <!--面板的标题-->
+                    <h3 class="panel-title text-center">用户管理</h3>
+                </div>
+                <!--面板的主体-->
+                <!--<div class="panel-body">-->
+                    <!--在面板中嵌入一个表格-->
+                    <table class="table table-bordered table-hover text-center">
+                        <thead>
+                        <tr class="bg-success" >
+                            <td>ID</td>
+                            <td>用户名</td>
+                            <td>邮箱</td>
+                            <td>角色</td>
+                            <td>操作</td>
+                        </tr>
+                        </thead>
+                        <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>admin</td>
+                            <td>htyuhongyi@163.com</td>
+                            <td>超级管理员</td>
+                            <td><a href="">编辑</a> | <a href="">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>邵星辰</td>
+                            <td>--</td>
+                            <td>用户</td>
+                            <td><a href="">编辑</a> | <a href="">删除</a></td>
+                        </tr>
+                        <tr>        
+                            <td>3</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td><a href="">编辑</a> | <a href="">删除</a></td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td>--</td>
+                            <td><a href="">编辑</a> | <a href="">删除</a></td>
+                        </tr>
+                       </tbody>
+                    </table>
+
+            </div>
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            
+            <!--分页通常写到一对nav标签中,居中显示-->
+            <nav class="text-center">
+                <!--分页基类容器: .pagination-->
+                <ul class="pagination pagination-md">
+                    <li class="disabled"><a href="">«上一页</a></li>
+                    <li class="active"><a href="">1</a></li>
+                    <li><a href="">2</a></li>
+                    <li><a href="">3</a></li>
+                    <li><a href="">4</a></li>
+                    <li><a href="">5</a></li>
+                    <li><a href="">下一页»</a></li>
+                </ul>
+                
+            </nav>
+            
+        </div>
+    </div>
+
+</div>
+
+<script src="../lib/jquery.js"></script>
+<script src="../lib/dist/js/bootstrap.js"></script>
+</body>
+</html>
